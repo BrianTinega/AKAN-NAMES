@@ -4,6 +4,8 @@
 ## Description
 {This website makes use of user input:
 Your birthday and gender and generates an Akan Name for you }
+## Screenshot
+![Alt text](images/screenshot.npg "Optional Title")
 ## Setup/Installation Requirements
 * Can be viewed on any browser
 ## BDD
@@ -17,9 +19,9 @@ Your birthday and gender and generates an Akan Name for you }
 |Month   | Month of birth e.g March|
 |Day     | Day of the month        |
 |      Output                      |
------------------------------------
+-----------------------------------|
 |Akan Name                         |
-|Day of the week when one was born|
+|Day of the week when one was born |
 ## Known Bugs
 * It does not respond for years above 2000
 ## Technologies Used
