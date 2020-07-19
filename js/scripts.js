@@ -9,7 +9,7 @@ var day=parseInt(document.getElementById("dob").value);
   var CC=parseInt(year.slice(0,2));
   var YY=parseInt(year.slice(2,4));
   d =Math.floor(( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(month+1)/10)) + day ) % 7);
-
+  //validation
 if (day<1 || day>31) {
   document.getElementById("output").innerHTML=("Enter valid date");
   return;
