@@ -3,43 +3,68 @@
   <head>
     <title>AKAN NAMES</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   </head>
   <body>
-    <div clas="container">
-      <div clas="jumbotron">
+    <div class="container">
+      <div class="jumbotron">
         <h1>AKAN NAMES</h1>
       </div>
     </div>
+      <div class="card">
+        <div class="card-body">
+          <P>Akan names are derived from ghanaian culture</P>
+           <p>Children,both male and female,are given Akan names based on the day of the week they were born:</p>
+            <ol>names given to the male species include:<ol>
+            <li>Sunday: Kwasi</li>
+            <li>Monday: Kwadwo</li>
+            <li>Tuesday: Kwabena</li>
+            <li>Wednesday: Kwaku</li>
+            <li>Thursday:  Yaw</li>
+            <li>Friday: Kofi</li>
+            <li>Saturday: Kwame</li>
+
+          </div>
+        </div>
+      <div class="card">
+        <div class="card-body">
+          <ol>Names given to female species include:
+            <li>Sunday: Akosua</li>
+            <li>Monday: Adwoa</li>
+            <li>Tuesday: Abenaa</li>
+             <li>Wednesday: Akua</li>
+             <li>Thursday:  Yaa</li>
+             <li>Friday: Afua</li>
+            <li>Saturday: Ama</li>
+          </ol>
+        </div>
+      </div>
+<div class="card">
+  <div class="card-body">
+    <p>To find out your Akan name and day of birth fill in below:</p>
+
+  </div>
+</div>  
+<div class="card">
+  <div class="card-body">
+    <form>
+      <label >Date of Birth:</label><br>
+      <input type="number" id="dob" >
+      </form>
+      <form><label >Month of Birth:</label><br>
+      <input type="number" id="mob" >
+      </form>
+      <form>  <label >Year of Birth:</label><br>
+      <input type="number" id="yob" >
+      </form>  
     
-    <P>Akan names are derived from ghanaian culture</P>
-    <p>Children,both male and female,are given Akan names based on the day of the week they were born:</p>
-     <ol>names given to the male species include:<ol>
-      <li>Sunday: Kwasi</li>
-      <li>Monday: Kwadwo</li>
-      <li>Tuesday: Kwabena</li>
-      <li>Wednesday: Kwaku</li>
-      <li>Thursday:  Yaw</li>
-      <li>Friday: Kofi</li>
-      <li>Saturday: Kwame</li>
-    <ol>Names given to female species include:</ol>
-      <li>Sunday: Akosua</li>
-      <li>Monday: Adwoa</li>
-      <li>Tuesday: Abenaa</li>
-      <li>Wednesday: Akua</li>
-      <li>Thursday:  Yaa</li>
-      <li>Friday: Afua</li>
-      <li>Saturday: Ama</li>
-<p>To find out your Akan name and day of birth fill in below:</p>
-<form>
-  <label >Date of Birth:</label><br>
-  <input type="number" id="dob" name="fname"><br>
-  <label>Month of Birth:</label><br>
-  <input type="number" id="mob" name="lname">
-  <label>Year of Birth:</label><br>
-  <input type="number" id="yob" name="lname">
-  <button type="button" class="btn btn-primary" onclick="calculate();">Submit</button>
-</form>
-<script src=js/scripts.js></script>
-  </body>
+      <button type="button" class="btn btn-primary" onclick="calculateDay();">Submit</button>
+      </form>
+      <script type=text/javascript src=js/scripts.js></script>
+  
+
+  </div>
+</div>
+    
+</body>
 </html>
