@@ -6,6 +6,12 @@
 Your birthday and gender and generates an Akan Name for you }
 ## Setup/Installation Requirements
 * Can be viewed on any browser
+## BDD
+|Input |Description|
+-------|-----------|
+Century|Is the
+        century one was born e.g 21st century|
+
 ## Known Bugs
 * It does not respond for years above 2000
 ## Technologies Used
