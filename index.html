@@ -48,16 +48,23 @@
 <div class="card">
   <div class="card-body">
     <form>
-      <label >Date of Birth:</label><br>
-      <input type="number" id="dob" >
-      </form>
-      <form><label >Month of Birth:</label><br>
-      <input type="number" id="mob" >
-      </form>
-      <form>  <label >Year of Birth:</label><br>
-      <input type="number" id="yob" >
-      </form>  
+      <label >Date of Birth:</label>
+      <input type="number" id="dob" value="date" >
+
+      <label >Month of Birth:</label>
+      <input type="number" id="mob" value="month" >
+      
+       <label >Year of Birth:</label>
+      <input type="number" id="yob" value="year">
+      <SELECT id="gender">
+
+        <OPTION Value="male">Male</OPTION>
+        <OPTION Value="female">Female</OPTION>
+  
+        
+        </SELECT>
     
+      <div id="output"></div>
       <button type="button" class="btn btn-primary" onclick="calculateDay();">Submit</button>
       </form>
       <script type=text/javascript src=js/scripts.js></script>
